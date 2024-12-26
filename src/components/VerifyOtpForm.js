@@ -20,6 +20,7 @@ const VerifyOtpForm = () => {
             });
 
             if (response.ok) {
+                
                 navigate('/dashboard');
             } else {
                 setError('Invalid or expired OTP!');
